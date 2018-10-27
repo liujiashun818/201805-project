@@ -1,0 +1,4 @@
+2018-09-09 16:35:20,482 INFO 8252 [egg:logger] init all loggers with options: {"dir":"D:\\vipcode\\project\\2018projects1\\2.egg\\logs\\2.egg","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"2.egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2018-09-09 16:35:20,606 INFO 8252 [egg:core] dump config after load, 7ms
+2018-09-09 16:35:20,697 INFO 8252 [egg-watcher:agent] watcher start success
+2018-09-09 16:35:20,762 INFO 8252 [egg:core] dump config after ready, 11ms

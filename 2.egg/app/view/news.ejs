@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/public/bootstrap/dist/css/bootstrap.css">
+    <title>新闻列表</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-3">
+            <div class="card">
+                ejs
+                <ul class="list-group">
+                    <%for(let i=0;i<items.length;i++){%>
+                        <li class="list-group-item">
+                            <a href="<%=items[i].url%>">
+                                <%=items[i].title%>
+                            </a>
+                        </li>
+                        <%}%>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

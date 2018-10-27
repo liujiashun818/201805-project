@@ -1,0 +1,13 @@
+{
+  "name": "7.dva",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "umi build",
+    "dev": "umi dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
