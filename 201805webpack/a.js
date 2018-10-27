@@ -1,0 +1,1 @@
+let b = require('./b.js');
