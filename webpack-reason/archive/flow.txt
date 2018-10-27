@@ -1,0 +1,754 @@
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap Resolver: before/after
+tap Resolver: step hooks
+tapAsync ParsePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync { stage: 10, name: 'ModuleKindPlugin' }
+tapAsync { stage: 10, name: 'JoinRequestPlugin' }
+tapAsync TryNextPlugin
+tapAsync ModulesInHierachicDirectoriesPlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync FileKindPlugin
+tapAsync TryNextPlugin
+tapAsync DirectoryExistsPlugin
+tapAsync MainFieldPlugin
+tapAsync UseFilePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync TryNextPlugin
+tapAsync AppendPlugin
+tapAsync AppendPlugin
+tapAsync AppendPlugin
+tapAsync SymlinkPlugin
+tapAsync FileExistsPlugin
+tapAsync NextPlugin
+tapAsync ResultPlugin
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap Resolver: before/after
+tap Resolver: step hooks
+tapAsync ParsePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync { stage: 10, name: 'ModuleKindPlugin' }
+tapAsync { stage: 10, name: 'JoinRequestPlugin' }
+tapAsync TryNextPlugin
+tapAsync ModulesInHierachicDirectoriesPlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync FileKindPlugin
+tapAsync TryNextPlugin
+tapAsync DirectoryExistsPlugin
+tapAsync MainFieldPlugin
+tapAsync UseFilePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync TryNextPlugin
+tapAsync AppendPlugin
+tapAsync AppendPlugin
+tapAsync AppendPlugin
+tapAsync SymlinkPlugin
+tapAsync FileExistsPlugin
+tapAsync NextPlugin
+tapAsync ResultPlugin
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap Resolver: before/after
+tap Resolver: step hooks
+tapAsync ParsePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync { stage: 10, name: 'ModuleKindPlugin' }
+tapAsync { stage: 10, name: 'JoinRequestPlugin' }
+tapAsync TryNextPlugin
+tapAsync ModulesInHierachicDirectoriesPlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync FileKindPlugin
+tapAsync TryNextPlugin
+tapAsync DirectoryExistsPlugin
+tapAsync NextPlugin
+tapAsync ResultPlugin
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap Resolver: before/after
+tap Resolver: step hooks
+tapAsync ParsePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync { stage: 10, name: 'ModuleKindPlugin' }
+tapAsync { stage: 10, name: 'JoinRequestPlugin' }
+tapAsync TryNextPlugin
+tapAsync ModulesInHierachicDirectoriesPlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync FileKindPlugin
+tapAsync TryNextPlugin
+tapAsync DirectoryExistsPlugin
+tapAsync NextPlugin
+tapAsync ResultPlugin
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap Resolver: before/after
+tap Resolver: step hooks
+tapAsync ParsePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync { stage: 10, name: 'ModuleKindPlugin' }
+tapAsync { stage: 10, name: 'JoinRequestPlugin' }
+tapAsync ModuleAppendPlugin
+tapAsync TryNextPlugin
+tapAsync ModulesInHierachicDirectoriesPlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync FileKindPlugin
+tapAsync TryNextPlugin
+tapAsync DirectoryExistsPlugin
+tapAsync MainFieldPlugin
+tapAsync MainFieldPlugin
+tapAsync UseFilePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync TryNextPlugin
+tapAsync AppendPlugin
+tapAsync AppendPlugin
+tapAsync AppendPlugin
+tapAsync SymlinkPlugin
+tapAsync FileExistsPlugin
+tapAsync NextPlugin
+tapAsync ResultPlugin
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap Resolver: before/after
+tap Resolver: step hooks
+tapAsync ParsePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync { stage: 10, name: 'ModuleKindPlugin' }
+tapAsync { stage: 10, name: 'JoinRequestPlugin' }
+tapAsync ModuleAppendPlugin
+tapAsync TryNextPlugin
+tapAsync ModulesInHierachicDirectoriesPlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync FileKindPlugin
+tapAsync TryNextPlugin
+tapAsync DirectoryExistsPlugin
+tapAsync MainFieldPlugin
+tapAsync MainFieldPlugin
+tapAsync UseFilePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync TryNextPlugin
+tapAsync AppendPlugin
+tapAsync AppendPlugin
+tapAsync AppendPlugin
+tapAsync SymlinkPlugin
+tapAsync FileExistsPlugin
+tapAsync NextPlugin
+tapAsync ResultPlugin
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap Compiler
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap ResolverFactory
+tap NodeEnvironmentPlugin
+tap JsonpTemplatePlugin
+tap FetchCompileWasmTemplatePlugin
+tap FunctionModulePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap LoaderTargetPlugin
+tap JavascriptModulesPlugin
+tap JsonModulesPlugin
+tap WebAssemblyModulesPlugin
+tap EntryOptionPlugin
+tap SingleEntryPlugin
+tapAsync SingleEntryPlugin
+tap CompatibilityPlugin
+tap HarmonyModulesPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap CommonJsPlugin
+tap LoaderPlugin
+tap LoaderPlugin
+tap NodeStuffPlugin
+tap RequireJsStuffPlugin
+tap APIPlugin
+tap ConstPlugin
+tap UseStrictPlugin
+tap RequireIncludePlugin
+tap RequireEnsurePlugin
+tap RequireContextPlugin
+tap ImportPlugin
+tap SystemPlugin
+tap WarnNoModeSetPlugin
+tap EnsureChunkConditionsPlugin
+tap RemoveParentModulesPlugin
+tap RemoveEmptyChunksPlugin
+tap MergeDuplicateChunksPlugin
+tap FlagIncludedChunksPlugin
+tap OccurrenceOrderPlugin
+tap SideEffectsFlagPlugin
+tap SideEffectsFlagPlugin
+tap FlagDependencyExportsPlugin
+tap FlagDependencyUsagePlugin
+tap ModuleConcatenationPlugin
+tap SplitChunksPlugin
+tap NoEmitOnErrorsPlugin
+tap NoEmitOnErrorsPlugin
+tap DefinePlugin
+tap { name: 'UglifyJSPlugin' }
+tap SizeLimitsPlugin
+tap TemplatedPathPlugin
+tap RecordIdsPlugin
+tap WarnCaseSensitiveModulesPlugin
+tap WebpackOptionsApply
+tap WebpackOptionsApply
+tap WebpackOptionsApply
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap AMDPlugin
+Compiler:before-run
+Compiler:run
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap NormalModuleFactory
+tap NormalModuleFactory
+tap NormalModuleFactory
+normal-module-factory
+tap SideEffectsFlagPlugin
+tap SideEffectsFlagPlugin
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap ContextModuleFactory
+Compiler:context-module-factory
+Compiler:before-compile
+Compiler:compile
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap Compilation
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap MainTemplate
+tap MainTemplate
+tap MainTemplate
+tap MainTemplate
+tap MainTemplate
+tap MainTemplate
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+Compiler:this-compilation
+tap JsonpMainTemplatePlugin
+tap JsonpMainTemplatePlugin
+tap JsonpMainTemplatePlugin
+tap JsonpMainTemplatePlugin
+tap JsonpMainTemplatePlugin
+tap JsonpMainTemplatePlugin
+tap JsonpMainTemplatePlugin
+tap JsonpMainTemplatePlugin
+tap JsonpMainTemplatePlugin
+tap JsonpChunkTemplatePlugin
+tap JsonpChunkTemplatePlugin
+tap JsonpHotUpdateChunkTemplatePlugin
+tap JsonpHotUpdateChunkTemplatePlugin
+tap FetchCompileWasmMainTemplatePlugin
+tap FetchCompileWasmMainTemplatePlugin
+tap FetchCompileWasmMainTemplatePlugin
+tap FetchCompileWasmMainTemplatePlugin
+tap WasmModuleTemplatePlugin
+tap WasmModuleTemplatePlugin
+tap SplitChunksPlugin
+tap SplitChunksPlugin
+Compiler:compilation
+tap FunctionModuleTemplatePlugin
+tap FunctionModuleTemplatePlugin
+tap FunctionModuleTemplatePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap LoaderTargetPlugin
+tap JavascriptModulesPlugin
+tap JavascriptModulesPlugin
+tap JavascriptModulesPlugin
+tap JavascriptModulesPlugin
+tap JavascriptModulesPlugin
+tap JavascriptModulesPlugin
+tap JavascriptModulesPlugin
+tap JavascriptModulesPlugin
+tap JavascriptModulesPlugin
+tap JsonModulesPlugin
+tap JsonModulesPlugin
+tap WebAssemblyModulesPlugin
+tap WebAssemblyModulesPlugin
+tap WebAssemblyModulesPlugin
+tap CompatibilityPlugin
+tap HarmonyModulesPlugin
+tap HarmonyModulesPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap LoaderPlugin
+tap NodeStuffPlugin
+tap NodeStuffPlugin
+tap RequireJsStuffPlugin
+tap RequireJsStuffPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap ConstPlugin
+tap ConstPlugin
+tap ConstPlugin
+tap UseStrictPlugin
+tap UseStrictPlugin
+tap UseStrictPlugin
+tap RequireIncludePlugin
+tap RequireIncludePlugin
+tap RequireEnsurePlugin
+tap RequireEnsurePlugin
+tap RequireContextPlugin
+tap RequireContextPlugin
+tap RequireContextPlugin
+tap RequireContextPlugin
+tap RequireContextPlugin
+tap ImportPlugin
+tap ImportPlugin
+tap ImportPlugin
+tap SystemPlugin
+tap SystemPlugin
+tap EnsureChunkConditionsPlugin
+tap EnsureChunkConditionsPlugin
+tap RemoveParentModulesPlugin
+tap RemoveParentModulesPlugin
+tap RemoveEmptyChunksPlugin
+tap RemoveEmptyChunksPlugin
+tap MergeDuplicateChunksPlugin
+tap FlagIncludedChunksPlugin
+tap OccurrenceOrderPlugin
+tap OccurrenceOrderPlugin
+tap SideEffectsFlagPlugin
+tap FlagDependencyExportsPlugin
+tap FlagDependencyExportsPlugin
+tap FlagDependencyExportsPlugin
+tap FlagDependencyUsagePlugin
+tap ModuleConcatenationPlugin
+tap ModuleConcatenationPlugin
+tap ModuleConcatenationPlugin
+tap ModuleConcatenationPlugin
+tap NoEmitOnErrorsPlugin
+tap DefinePlugin
+tap DefinePlugin
+tap DefinePlugin
+tapAsync { name: 'UglifyJSPlugin' }
+tap TemplatedPathPlugin
+tap TemplatedPathPlugin
+tap TemplatedPathPlugin
+tap RecordIdsPlugin
+tap RecordIdsPlugin
+tap RecordIdsPlugin
+tap RecordIdsPlugin
+tap WarnCaseSensitiveModulesPlugin
+Compiler:make
+    NormalModuleFactory:before-resolve
+    NormalModuleFactory:factory
+    NormalModuleFactory:resolver
+    ResolverFactory:resolve-options
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap Resolver: before/after
+tap Resolver: step hooks
+tapAsync UnsafeCachePlugin
+tapAsync ParsePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync { stage: 10, name: 'ModuleKindPlugin' }
+tapAsync { stage: 10, name: 'JoinRequestPlugin' }
+tapAsync TryNextPlugin
+tapAsync ModulesInHierachicDirectoriesPlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync FileKindPlugin
+tapAsync TryNextPlugin
+tapAsync DirectoryExistsPlugin
+tapAsync MainFieldPlugin
+tapAsync MainFieldPlugin
+tapAsync UseFilePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync TryNextPlugin
+tapAsync AppendPlugin
+tapAsync AppendPlugin
+tapAsync SymlinkPlugin
+tapAsync FileExistsPlugin
+tapAsync NextPlugin
+tapAsync ResultPlugin
+    ResolverFactory:resolver
+    ResolverFactory:resolve-options
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap Resolver: before/after
+tap Resolver: step hooks
+tapAsync UnsafeCachePlugin
+tapAsync ParsePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync AliasFieldPlugin
+tapAsync { stage: 10, name: 'ModuleKindPlugin' }
+tapAsync { stage: 10, name: 'JoinRequestPlugin' }
+tapAsync TryNextPlugin
+tapAsync ModulesInHierachicDirectoriesPlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync FileKindPlugin
+tapAsync TryNextPlugin
+tapAsync DirectoryExistsPlugin
+tapAsync MainFieldPlugin
+tapAsync MainFieldPlugin
+tapAsync MainFieldPlugin
+tapAsync UseFilePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync TryNextPlugin
+tapAsync AppendPlugin
+tapAsync AppendPlugin
+tapAsync AppendPlugin
+tapAsync AppendPlugin
+tapAsync AliasFieldPlugin
+tapAsync SymlinkPlugin
+tapAsync FileExistsPlugin
+tapAsync NextPlugin
+tapAsync ResultPlugin
+    ResolverFactory:resolver
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+tapAsync AliasPlugin
+    Resolver:resolveStep
+    Resolver:resolveStep
+    Resolver:resolveStep
+    Resolver:resolveStep
+    Resolver:resolveStep
+    Resolver:resolveStep
+    Resolver:resolveStep
+    Resolver:resolveStep
+    Resolver:resolveStep
+    Resolver:resolveStep
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+tap Parser
+    NormalModuleFactory:parser
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap NodeSourcePlugin
+tap CompatibilityPlugin
+tap HarmonyDetectionParserPlugin
+tap HarmonyDetectionParserPlugin
+tap HarmonyDetectionParserPlugin
+tap HarmonyDetectionParserPlugin
+tap HarmonyDetectionParserPlugin
+tap HarmonyDetectionParserPlugin
+tap HarmonyDetectionParserPlugin
+tap HarmonyDetectionParserPlugin
+tap HarmonyDetectionParserPlugin
+tap HarmonyDetectionParserPlugin
+tap HarmonyDetectionParserPlugin
+tap HarmonyImportDependencyParserPlugin
+tap HarmonyImportDependencyParserPlugin
+tap HarmonyImportDependencyParserPlugin
+tap HarmonyImportDependencyParserPlugin
+tap HarmonyImportDependencyParserPlugin
+tap HarmonyImportDependencyParserPlugin
+tap HarmonyImportDependencyParserPlugin
+tap HarmonyExportDependencyParserPlugin
+tap HarmonyExportDependencyParserPlugin
+tap HarmonyExportDependencyParserPlugin
+tap HarmonyExportDependencyParserPlugin
+tap HarmonyExportDependencyParserPlugin
+tap HarmonyExportDependencyParserPlugin
+tap HarmonyTopLevelThisParserPlugin
+tap AMDRequireDependenciesBlockParserPlugin
+tap AMDDefineDependencyParserPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap AMDPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsPlugin
+tap CommonJsRequireDependencyParserPlugin
+tap CommonJsRequireDependencyParserPlugin
+tap CommonJsRequireDependencyParserPlugin
+tap RequireResolveDependencyParserPlugin
+tap RequireResolveDependencyParserPlugin
+tap NodeStuffPlugin
+tap NodeStuffPlugin
+tap NodeStuffPlugin
+tap NodeStuffPlugin
+tap NodeStuffPlugin
+tap NodeStuffPlugin
+tap NodeStuffPlugin
+tap NodeStuffPlugin
+tap NodeStuffPlugin
+tap NodeStuffPlugin
+tap NodeStuffPlugin
+tap RequireJsStuffPlugin
+tap RequireJsStuffPlugin
+tap RequireJsStuffPlugin
+tap RequireJsStuffPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap APIPlugin
+tap ConstPlugin
+tap ConstPlugin
+tap ConstPlugin
+tap ConstPlugin
+tap UseStrictPlugin
+tap RequireIncludeDependencyParserPlugin
+tap RequireIncludePlugin
+tap RequireIncludePlugin
+tap RequireEnsureDependenciesBlockParserPlugin
+tap RequireEnsurePlugin
+tap RequireEnsurePlugin
+tap RequireContextDependencyParserPlugin
+tap ImportParserPlugin
+tap SystemPlugin
+tap SystemPlugin
+tap SystemPlugin
+tap SystemPlugin
+tap SystemPlugin
+tap SystemPlugin
+tap SystemPlugin
+tap SystemPlugin
+tap SystemPlugin
+tap SystemPlugin
+tap SystemPlugin
+tap SystemPlugin
+tap ModuleConcatenationPlugin
+tap DefinePlugin
+tap DefinePlugin
+tap DefinePlugin
+tap DefinePlugin
+tap DefinePlugin
+tap DefinePlugin
+tap DefinePlugin
+    NormalModuleFactory:generator
+    NormalModuleFactory:after-resolve
+    NormalModuleFactory:create-module
+    NormalModuleFactory:module
+  Compilation:build-module
+  Compilation:succeed-module
+  Compilation:finish-modules
+  Compilation:seal
+  Compilation:optimize-dependencies-basic
+  Compilation:optimize-dependencies
+  Compilation:optimize-dependencies-advanced
+  Compilation:after-optimize-dependencies
+  Compilation:optimize
+  Compilation:optimize-modules-basic
+  Compilation:optimize-modules
+  Compilation:optimize-modules-advanced
+  Compilation:after-optimize-modules
+  Compilation:optimize-chunks-basic
+  Compilation:optimize-chunks
+  Compilation:optimize-chunks-advanced
+  Compilation:after-optimizeChunks
+  Compilation:optimize-tree
+  Compilation:after-optimize-tree
+  Compilation:optimize-chunk-modules-basic
+  Compilation:optimize-chunk-modules
+  Compilation:optimize-chunk-modules-advanced
+  Compilation:after-optimize-chunk-modules
+  Compilation:should-record
+  Compilation:revive-modules
+  Compilation:optimize-moduleOrder
+  Compilation:advanced-optimize-module-order
+  Compilation:before-moduleIds
+  Compilation:module-ids
+  Compilation:optimize-module-ids
+  Compilation:after-optimize-module-ids
+  Compilation:revive-chunks
+  Compilation:optimize-chunk-order
+  Compilation:before-chunk-ids
+  Compilation:optimize-chunk-ids
+  Compilation:after-optimize-chunk-ids
+  Compilation:record-modules
+  Compilation:record-chunks
+  Compilation:before-hash
+    MainTemplate:hash
+    ChunkTemplate:hash
+    ModuleTemplate:hash
+    ModuleTemplate:hash
+    MainTemplate:hash
+    MainTemplate:hash-for-chunk
+  Compilation:chunk-hash
+  Compilation:after-hash
+  Compilation:record-hash
+  Compilation:before-module-assets
+  Compilation:should-generate-chunk-assets
+  Compilation:before-chunk-assets
+    MainTemplate:render-manifest
+    MainTemplate:global-hash-paths
+    MainTemplate:bootstrap
+    MainTemplate:localVars
+    MainTemplate:require
+    MainTemplate:require-extensions
+    MainTemplate:asset-path
+    MainTemplate:before-startup
+    MainTemplate:startup
+    ModuleTemplate:content
+    ModuleTemplate:module
+    ModuleTemplate:render
+    ModuleTemplate:package
+    MainTemplate:render-with-entry
+    MainTemplate:asset-path
+  Compilation:chunk-asset
+  Compilation:additional-chunk-assets
+  Compilation:record
+  Compilation:additional-assets
+  Compilation:optimize-chunk-assets
+  Compilation:after-optimize-chunk-assets
+  Compilation:optimize-assets
+  Compilation:after-optimize-assets
+  Compilation:need-additional-seal
+  Compilation:after-seal
+Compiler:after-compile
+Compiler:should-emit
+Compiler:emit
+    MainTemplate:asset-path
+Compiler:after-emit
+Compiler:done

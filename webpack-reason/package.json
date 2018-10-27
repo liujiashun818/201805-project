@@ -1,0 +1,20 @@
+{
+  "name": "webpack-reason",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  },
+  "dependencies": {
+    "escodegen": "^1.9.1",
+    "webpack-webstorm-debugger-script": "^1.0.1"
+  }
+}

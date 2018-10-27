@@ -1,0 +1,98 @@
+Compiler:before-run
+Compiler:run
+normal-module-factory
+Compiler:context-module-factory
+Compiler:before-compile
+Compiler:compile
+Compiler:this-compilation
+Compiler:compilation
+Compiler:make
+    NormalModuleFactory:before-resolve
+    NormalModuleFactory:factory
+    NormalModuleFactory:resolver
+    ResolverFactory:resolve-options
+    ResolverFactory:resolver
+    Resolver:resolveStep
+    NormalModuleFactory:parser
+    NormalModuleFactory:generator
+    NormalModuleFactory:after-resolve
+    NormalModuleFactory:create-module
+    NormalModuleFactory:module
+  Compilation:build-module
+  Compilation:succeed-module
+  Compilation:finish-modules
+  Compilation:seal
+  Compilation:optimize-dependencies-basic
+  Compilation:optimize-dependencies
+  Compilation:optimize-dependencies-advanced
+  Compilation:after-optimize-dependencies
+  Compilation:optimize
+  Compilation:optimize-modules-basic
+  Compilation:optimize-modules
+  Compilation:optimize-modules-advanced
+  Compilation:after-optimize-modules
+  Compilation:optimize-chunks-basic
+  Compilation:optimize-chunks
+  Compilation:optimize-chunks-advanced
+  Compilation:after-optimizeChunks
+  Compilation:optimize-tree
+  Compilation:after-optimize-tree
+  Compilation:optimize-chunk-modules-basic
+  Compilation:optimize-chunk-modules
+  Compilation:optimize-chunk-modules-advanced
+  Compilation:after-optimize-chunk-modules
+  Compilation:should-record
+  Compilation:revive-modules
+  Compilation:optimize-moduleOrder
+  Compilation:advanced-optimize-module-order
+  Compilation:before-moduleIds
+  Compilation:module-ids
+  Compilation:optimize-module-ids
+  Compilation:after-optimize-module-ids
+  Compilation:revive-chunks
+  Compilation:optimize-chunk-order
+  Compilation:before-chunk-ids
+  Compilation:optimize-chunk-ids
+  Compilation:after-optimize-chunk-ids
+  Compilation:record-modules
+  Compilation:record-chunks
+  Compilation:before-hash
+    MainTemplate:hash
+    ChunkTemplate:hash
+    ModuleTemplate:hash
+    MainTemplate:hash-for-chunk
+  Compilation:chunk-hash
+  Compilation:after-hash
+  Compilation:record-hash
+  Compilation:before-module-assets
+  Compilation:should-generate-chunk-assets
+  Compilation:before-chunk-assets
+    MainTemplate:render-manifest
+    MainTemplate:global-hash-paths
+    MainTemplate:bootstrap
+    MainTemplate:localVars
+    MainTemplate:require
+    MainTemplate:require-extensions
+    MainTemplate:asset-path
+    MainTemplate:before-startup
+    MainTemplate:startup
+    ModuleTemplate:content
+    ModuleTemplate:module
+    ModuleTemplate:render
+    ModuleTemplate:package
+    MainTemplate:render-with-entry
+  Compilation:chunk-asset
+  Compilation:additional-chunk-assets
+  Compilation:record
+  Compilation:additional-assets
+  Compilation:optimize-chunk-assets
+  Compilation:after-optimize-chunk-assets
+  Compilation:optimize-assets
+  Compilation:after-optimize-assets
+  Compilation:need-additional-seal
+  Compilation:after-seal
+Compiler:after-compile
+Compiler:should-emit
+Compiler:emit
+Compiler:after-emit
+Compiler:done

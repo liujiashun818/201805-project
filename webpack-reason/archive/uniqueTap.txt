@@ -1,0 +1,108 @@
+tap { name: 'Tapable camelCase', stage: 100 }
+tap { name: 'Tapable this.hooks', stage: 200 }
+tap Resolver: before/after
+tap Resolver: step hooks
+tapAsync ParsePlugin
+tapAsync DescriptionFilePlugin
+tapAsync { stage: 10, name: 'NextPlugin' }
+tapAsync { stage: 10, name: 'ModuleKindPlugin' }
+tapAsync { stage: 10, name: 'JoinRequestPlugin' }
+tapAsync TryNextPlugin
+tapAsync ModulesInHierachicDirectoriesPlugin
+tapAsync FileKindPlugin
+tapAsync DirectoryExistsPlugin
+tapAsync MainFieldPlugin
+tapAsync UseFilePlugin
+tapAsync AppendPlugin
+tapAsync SymlinkPlugin
+tapAsync FileExistsPlugin
+tapAsync NextPlugin
+tapAsync ResultPlugin
+tapAsync ModuleAppendPlugin
+tap Compiler
+tap ResolverFactory
+tap NodeEnvironmentPlugin
+tap JsonpTemplatePlugin
+tap FetchCompileWasmTemplatePlugin
+tap FunctionModulePlugin
+tap NodeSourcePlugin
+tap LoaderTargetPlugin
+tap JavascriptModulesPlugin
+tap JsonModulesPlugin
+tap WebAssemblyModulesPlugin
+tap EntryOptionPlugin
+tap SingleEntryPlugin
+tapAsync SingleEntryPlugin
+tap CompatibilityPlugin
+tap HarmonyModulesPlugin
+tap AMDPlugin
+tap CommonJsPlugin
+tap LoaderPlugin
+tap NodeStuffPlugin
+tap RequireJsStuffPlugin
+tap APIPlugin
+tap ConstPlugin
+tap UseStrictPlugin
+tap RequireIncludePlugin
+tap RequireEnsurePlugin
+tap RequireContextPlugin
+tap ImportPlugin
+tap SystemPlugin
+tap WarnNoModeSetPlugin
+tap EnsureChunkConditionsPlugin
+tap RemoveParentModulesPlugin
+tap RemoveEmptyChunksPlugin
+tap MergeDuplicateChunksPlugin
+tap FlagIncludedChunksPlugin
+tap OccurrenceOrderPlugin
+tap SideEffectsFlagPlugin
+tap FlagDependencyExportsPlugin
+tap FlagDependencyUsagePlugin
+tap ModuleConcatenationPlugin
+tap SplitChunksPlugin
+tap NoEmitOnErrorsPlugin
+tap DefinePlugin
+tap { name: 'UglifyJSPlugin' }
+tap SizeLimitsPlugin
+tap TemplatedPathPlugin
+tap RecordIdsPlugin
+tap WarnCaseSensitiveModulesPlugin
+tap WebpackOptionsApply
+Compiler:before-run
+Compiler:run
+tap NormalModuleFactory
+normal-module-factory
+tap ContextModuleFactory
+Compiler:context-module-factory
+Compiler:before-compile
+Compiler:compile
+tap Compilation
+tap MainTemplate
+Compiler:this-compilation
+tap JsonpMainTemplatePlugin
+tap JsonpChunkTemplatePlugin
+tap JsonpHotUpdateChunkTemplatePlugin
+tap FetchCompileWasmMainTemplatePlugin
+tap WasmModuleTemplatePlugin
+Compiler:compilation
+tap FunctionModuleTemplatePlugin
+tapAsync { name: 'UglifyJSPlugin' }
+tapAsync UnsafeCachePlugin
+    ResolverFactory:resolver
+tapAsync AliasFieldPlugin
+tapAsync AliasPlugin
+    Resolver:resolveStep
+tap Parser
+    NormalModuleFactory:parser
+tap HarmonyDetectionParserPlugin
+tap HarmonyImportDependencyParserPlugin
+tap HarmonyExportDependencyParserPlugin
+tap HarmonyTopLevelThisParserPlugin
+tap AMDRequireDependenciesBlockParserPlugin
+tap AMDDefineDependencyParserPlugin
+tap CommonJsRequireDependencyParserPlugin
+tap RequireResolveDependencyParserPlugin
+tap RequireIncludeDependencyParserPlugin
+tap RequireEnsureDependenciesBlockParserPlugin
+tap RequireContextDependencyParserPlugin
+tap ImportParserPlugin
